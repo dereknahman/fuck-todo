@@ -23,7 +23,6 @@ class App extends Component {
   }
 
   inputChange(inputValue) {
-    console.log(' Input Value: ', inputValue);
     this.setState({inputValue});
   }
 
